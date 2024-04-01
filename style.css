@@ -1,0 +1,340 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #343a40;
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+
+}
+header .headerlogo img{
+    /* margin-top: -20px; */
+    margin-bottom: 20px;
+    margin-left: 45px;
+}
+
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin-left: 250px;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.navbar  .anchor{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    font-size:large;
+}
+.navbar .anchor:hover{
+    color: orangered;
+}
+.main .text{
+   background-image: url(https://www.achieversit.com/assets/images/full_stack_development.jpg);
+   height: 400px;
+    
+}
+.text h1{
+    margin-top: 0px;
+    color: white;
+    margin-left: 700px;
+    position: relative;
+    top: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:35px;
+}
+.main{
+    flex-wrap: wrap;
+}
+
+.main .btn{
+    position: relative;
+    left:58%;
+    top: 37%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* transform: translate(-60 -60); */
+    font-size: 16px;
+    padding:10px 20px;
+    cursor: pointer;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+
+}
+
+.card1{
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    border-radius: 2px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.15);
+    padding: 25px 35px;
+    width: 24%;
+    position: relative;
+    left:5%;
+    top:-30px;
+}
+
+.card2{
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    border-radius: 2px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.15);
+    padding: 25px 35px;
+    width: 24%;
+    position: relative;
+    left:110px;
+    top: -30px;
+    
+}
+.card3{
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    border-radius: 2px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.15);
+    padding: 25px 35px;
+    width: 24%;
+    position: relative;
+    left:143px;
+    top: -30px;
+    
+}
+.line2{
+    font-weight: bold;
+}
+.card1:hover {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+    background: linear-gradient( #fcff9e , #c67700 );
+}
+.card3:hover {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+  
+}
+.card2:hover {
+  cursor: pointer;
+  transition: transform 0.3s ease; 
+  transform: scale(1.1);
+  background: linear-gradient(#b24592 , #f15f79 );
+}
+
+.cards{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn:hover{
+    background: linear-gradient(#76b852 , #8dc265);
+}
+.cards .line1,.line2{
+    padding: 0px;
+    margin-top: 0px;
+}
+.cards .know{
+    font-size: medium;
+    position: absolute;
+    left: 280px;
+    color: #333399e8;
+    bottom: 34px;
+}
+.dropdown1{
+    display: inline-block;
+    position: relative;
+}
+.dropdown-content1{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+  
+.dropdown-content1 .courses{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown1:hover .dropdown-content1{
+    display: block;
+}
+.dropdown2{
+    display: inline-block;
+    position: relative;
+}
+.dropdown-content2{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: -38px;
+    border-radius: 5px;
+    margin-left: 303px;
+}
+  
+.dropdown-content2 .courses{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown2:hover .dropdown-content2{
+    display: inline;
+}
+.dropdown3{
+    display: inline-block;
+    position: relative;
+}
+.dropdown-content3{
+    display: none;
+    position: absolute;
+    margin-left: 303px;
+    background-color: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 300px;
+    margin-top: -52px;
+    border-radius: 5px;
+}
+.dropdown-content3 .courses{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown3:hover .dropdown-content3{
+    display: block;
+}
+
+hr{
+    border: 1px solid #EAF0F1;
+}
+.button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.arrow{
+    margin-left: 270px;
+    margin-top: -32px;
+}
+.main .text  .slide1{
+    position: relative;
+    left: -95px;
+    top: 130px;
+    background: none;
+    border: none;
+    font-size: xx-large;
+    color: rgba(255, 255, 255, 0.414);
+    cursor: pointer;
+}
+.main .text  .slide2{
+    position: relative;
+    left: 1200px;
+    top: 130px;
+    background: none;
+    border: none;
+    font-size: xx-large;
+    color: rgba(255, 255, 255, 0.414);
+    cursor: pointer;
+}
+.hr1{
+    position: relative;
+    top: 190px;
+    height: 3.5px;
+    border: none;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.504);
+    left: -70px;
+}
+.hr2{
+    position: relative;
+    top: 179px;
+    height: 3.5px;
+    border: none;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.504);
+    left: -30px;
+}
+.hr3{
+    position: relative;
+    top: 168px;
+    height: 3.5px;
+    border: none;
+    width: 30px;
+    background-color: white;
+    left: 10px;
+}
+.hr4{
+    position: relative;
+    top: 157px;
+    height: 3.5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.504);
+    width: 30px;
+    left: 48px;
+}
+.hr5{
+    position: relative;
+    top: 145.5px;
+    height: 3.5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.504);
+    width: 30px;
+    left: 88px;
+}
+.location{
+    padding: 7px;
+    width: 200px;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color:#ff4500 ;
+    transform: rotate(90deg);
+    position: fixed;
+    left: -82px;
+    bottom: 380px;
+    cursor: pointer;
+}
+.location:hover{
+    background: linear-gradient(#76b852 , #8dc265);
+}
+.contact{
+    padding: 7px;
+    width: 150px;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color:#ff4500 ;
+    transform: rotate(270deg);
+    position: fixed;
+    left: 1442px;
+    bottom: 380px;
+    cursor: pointer;
+}
+.contact:hover{
+    background: linear-gradient(#76b852 , #8dc265);
+}
